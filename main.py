@@ -42,12 +42,12 @@ def main():
         end_cord5 = (100,800)
         end_cord6 = (800,500)
 
-        pygame.draw.line(screen, config.FIREBRICK, {st_cord1}, {end_cord1}, thick)
-        pygame.draw.line(screen, config.TANGERINE, {st_cord2}, {end_cord2}, thick)
-        pygame.draw.line(screen, config.DARKGOLDENROD, {st_cord3}, {end_cord3}, thick)
-        pygame.draw.line(screen, config.BLACK, {st_cord4}, {end_cord4}, thick)
-        pygame.draw.line(screen, config.LAVENDERPURPLE, {st_cord5}, {end_cord5}, thick)
-        pygame.draw.line(screen, config.ROSYBROWN, {st_cord6}, {end_cord6}, thick)
+        pygame.draw.line(screen, config.FIREBRICK, st_cord1, end_cord1, thick)
+        pygame.draw.line(screen, config.TANGERINE, st_cord2, end_cord2, thick)
+        pygame.draw.line(screen, config.DARKGOLDENROD, st_cord3, end_cord3, thick)
+        pygame.draw.line(screen, config.BLACK, st_cord4, end_cord4, thick)
+        pygame.draw.line(screen, config.LAVENDERPURPLE, st_cord5, end_cord5, thick)
+        pygame.draw.line(screen, config.ROSYBROWN, st_cord6, end_cord6, thick)
 
         pygame.display.flip()
         # Limit the frame rate to the specified frames per second (FPS)
